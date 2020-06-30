@@ -1,0 +1,60 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "random physics facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "fall back"
+          ]
+        },
+        {
+          "name": "GetNewPhysicsFactIntent",
+          "slots": [],
+          "samples": [
+            "start shubham skill",
+            "start a physics trivia",
+            "give me some random physics fact",
+            "give me physics trivia",
+            "tell me physics trivia",
+            "give me a physics fact",
+            "tell me a physics fact",
+            "a physics fact"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "navigate home"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "8"
+}
